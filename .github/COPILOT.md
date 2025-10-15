@@ -49,6 +49,16 @@ import Counter from '../components/Counter.vue'
 - Use `snippets/external.ts` for shared helper functions or sample code used across slides.
 - If you add dependencies, update `package.json` and run `npm install`.
 
+## Layout conventions on slides
+
+The layout goes in the frontmatter of each slide or section. Here are my layout preferences:
+- Use `layout: cover` or `layout: intro` for title and section intro slides.
+- Use `layout: quote` for slides that are focused on a single statement or quote from the study design.
+- Use `layout: top-title-two-cols` for slides with two columns of text content. 
+    - Add a `color:` property to change the accent color (e.g. `color: green`)
+    - Include `::title::`, `::left::`, and `::right::` markers to define the title and column content.
+- Use `layout: full` for slides that need more space, such as code examples or images.
+
 ## Deploying
 
 - This repo includes `netlify.toml` and `vercel.json`. Either provider can host the built static output from `npm run build`.
