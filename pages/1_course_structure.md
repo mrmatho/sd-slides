@@ -328,3 +328,107 @@ Exam style assessment using a case study to:
 - make recommendations to improve practices
 
 The SAC is a written exam style assessment based on a case study. You will be required to answer a series of questions based on the case study. This closely mirrors the style of questions you will see in the end of year exam.
+
+---
+layout: top-title-two-cols
+color: teal
+zoom: 0.7
+---
+::title::
+
+# Unit 4 - Area of Study 1: Development and Evaluation
+
+::left::
+
+<SpeechBubble position="r" color="sky-light" shape="round">
+
+## Observation 1: A Software Solution that meets the software requirements specification
+
+<div class="ns-c-tight">
+
+- Efficient and effective solutions (user-centric design, clear and concise code, detailed internal documentation)
+- Programming
+- Innovative approaches to software development (Code Respositories, APIs and libraries, AI assistants)
+- Validation techniques (existence, type, range)
+- Debugging and testing strategies (breakpoints, tracing, test cases, test plans)
+
+</div>
+
+</SpeechBubble>
+
+::right::
+<SpeechBubble position="l" color="purple-light" shape="round">
+
+## Observation 2: Preparation and conduction of beta testing
+
+<div class="ns-c-tight">
+
+- Strategies for conducting beta testing (test plans, test cases, user instructions)
+  - Construction of a testing plan and testing scenarios
+  - Observation of testing scenarios
+  - Documentation of testing results 
+
+</div>
+
+</SpeechBubble>
+<br>
+
+<SpeechBubble position="l" color="green-light" shape="round">
+
+## Observation 3: Evaluation of the solution and assessment of the effectiveness of the project plan
+
+<div class="ns-c-tight">
+
+- Features of evaluation strategies (criteria, time frame, responsibility)
+- Techniques for applying evaluation criteria
+- Factors that influence the effectiveness of a project plan (scope creep, personnel changes, technical issues)
+- Techniques for recording the progress of projects
+- Techniques for assessing the effeciveness of project plans
+
+</div>
+</SpeechBubble>
+
+---
+layout: top-title
+color: orange
+zoom: 0.85
+---
+
+::title::
+
+# Unit 4 - Area of Study 2: Cyber security in software development practices
+
+::content::
+
+
+<SpeechBubble color="blue-light" shape="round" position="l">
+
+## SAC: Written exam style assessment
+
+<div class="ns-c-tight">
+
+- 120 minutes
+- 100 marks
+- Exam style questions based on a case study
+
+</div>
+
+</SpeechBubble>
+<br>
+
+<SpeechBubble color="red-light" shape="round" position="l">
+
+## Key Topics
+
+<div class="ns-c-tight">
+
+- Goals and objectives of medium and large organisations
+- Advantages and disadvantages of developing software in-house vs outsourcing
+- Vulnerabilities and risks in software development practices
+- Security controls used to protect software development practices and data stored in applications
+- Threat modelling principles
+- Criteria for evaluating the security of software development practces
+- Key legislation and industry frameworks (Copyright Act 1968, Essential Eight, Information Security Manual, Privacy Act 1988, Privacy and Data Protection Act 2014)
+
+</div>
+</SpeechBubble>

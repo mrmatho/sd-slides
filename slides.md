@@ -6,7 +6,6 @@ theme: neversink
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Software Development
-selectable: true
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
