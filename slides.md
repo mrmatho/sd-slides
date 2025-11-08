@@ -42,3 +42,8 @@ hide: false
 ---
 
 ---
+src: ./pages/2_python_basics.md
+hide: false
+---
+
+---
