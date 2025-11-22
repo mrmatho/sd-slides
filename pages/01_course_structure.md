@@ -218,6 +218,15 @@ zoom: 0.6
 
 </div>
 </SpeechBubble>
+<br>
+
+<Admonition title="What do you mean by 'Observations'?" color="navy-light">
+
+***Observations*** are the different parts of your SAT project. Here I have broken up the knowledge and skills that are assessed in each part. Some observations build on the knowledge and skills from previous observations.
+
+Each observation is a milestone in the project and will represent you ***submitting work for assessment***.
+
+</Admonition>
 
 ---
 layout: top-title
@@ -269,7 +278,7 @@ It allows projects to:
 
 ::right::
 
-<v-clicks>
+
 
 <SpeechBubble color="purple-light" position="l" shape="round">
 
@@ -293,7 +302,6 @@ A **repository** (or "repo") is a storage location for your project files and th
 
 </SpeechBubble>
 
-</v-clicks>
 
 ---
 layout: top-title-two-cols

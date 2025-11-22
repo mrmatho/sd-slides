@@ -42,8 +42,9 @@ age = 16
 height = 1.65
 is_student = True
 ```
+<br> 
 
-<Admonition title="Variable Names" color="purple">
+<Admonition title="Variable Names" color="purple-light">
 
 Variable names should be:
 - Descriptive and meaningful
@@ -225,20 +226,20 @@ Python uses **indentation** (4 spaces) to define code blocks. All code that belo
 </Admonition>
 
 ---
-layout: top-title-two-cols
+layout: top-title
 color: orange
-zoom: 0.9
+zoom: 0.95
 ---
 
 ::title::
 
-# Comparison and Logical Operators
+# Comparison Operators
 
-::left::
+::content::
 
-## Comparison Operators
+## Comparing Values
 
-These operators compare values and return `True` or `False`:
+Comparison operators compare values and return `True` or `False`:
 
 ```python
 x = 10
@@ -252,6 +253,19 @@ x >= y   # Greater than or equal to: True
 x <= y   # Less than or equal to: False
 ```
 
+## Using Comparisons in Conditions
+
+```python
+score = 85
+
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+else:
+    print("Grade: C or lower")
+```
+
 <Admonition title="Watch Out!" color="red">
 
 `=` is for **assignment** (giving a value to a variable)
@@ -260,13 +274,21 @@ x <= y   # Less than or equal to: False
 
 </Admonition>
 
-::right::
+---
+layout: top-title-two-cols
+color: purple
+zoom: 0.9
+---
 
-## Logical Operators
+::title::
 
-Combine multiple conditions:
+# Logical Operators
 
-<v-clicks>
+::left::
+
+## Combining Conditions
+
+Logical operators combine multiple conditions:
 
 <SpeechBubble color="purple-light" position="l" shape="round">
 
@@ -282,6 +304,8 @@ if age >= 16 and has_license:
 
 </SpeechBubble>
 
+<br>
+
 <SpeechBubble color="green-light" position="l" shape="round">
 
 **or** - At least one condition must be True
@@ -296,6 +320,8 @@ if is_weekend or is_holiday:
 
 </SpeechBubble>
 
+::right::
+
 <SpeechBubble color="orange-light" position="l" shape="round">
 
 **not** - Reverses the condition
@@ -309,7 +335,29 @@ if not is_raining:
 
 </SpeechBubble>
 
-</v-clicks>
+<br>
+
+## Combining Multiple Conditions
+
+```python
+grade = 85
+attendance = 95
+
+if grade >= 80 and attendance >= 90:
+    print("Excellent performance!")
+elif grade >= 70 or attendance >= 90:
+    print("Good job!")
+else:
+    print("Keep working hard!")
+```
+
+<Admonition title="Tip" color="yellow-light">
+
+Use parentheses for complex conditions to make them clearer:
+
+`if (age >= 16 and has_license) or has_permit:`
+
+</Admonition>
 
 ---
 layout: top-title
@@ -356,7 +404,7 @@ for letter in "Python":
 ---
 layout: top-title-two-cols
 color: teal
-zoom: 0.9
+zoom: 0.87
 ---
 
 ::title::
@@ -402,10 +450,12 @@ Always include a way to exit the loop.
 **break** - Exit the loop immediately
 
 ```python
-for i in range(10):
+i = 0
+while i < 10:
     if i == 5:
         break  # Stop when i is 5
     print(i)
+    i += 1
 # Output: 0, 1, 2, 3, 4
 ```
 
@@ -416,19 +466,27 @@ for i in range(10):
 **continue** - Skip to the next iteration
 
 ```python
-for i in range(5):
-    if i == 2:
-        continue  # Skip when i is 2
+i = 0
+while i < 5:
+    i += 1
+    if i == 3:
+        continue  # Skip when i is 3
     print(i)
-# Output: 0, 1, 3, 4
+# Output: 1, 2, 4, 5
 ```
 
 </SpeechBubble>
 
+<Admonition title="Tip" color="yellow-light">
+
+`break` and `continue` work in any loops (ie. both`for` and `while`). 
+
+</Admonition>
+
 </v-clicks>
 
 ---
-layout: top-title
+layout: top-title-two-cols
 color: indigo
 zoom: 1
 ---
@@ -437,7 +495,7 @@ zoom: 1
 
 # Functions: Organizing Your Code
 
-::content::
+::left::
 
 ## What are Functions?
 
@@ -446,7 +504,7 @@ Functions are **reusable blocks of code** that perform a specific task. They hel
 - Make your code more organized and readable
 - Break complex problems into smaller pieces
 
-```python
+```python 
 # Defining a function
 def greet():
     print("Hello, Software Development student!")
@@ -454,6 +512,7 @@ def greet():
 # Calling the function
 greet()  # Output: Hello, Software Development student!
 ```
+::right::
 
 <Admonition title="Function Anatomy" color="indigo">
 
@@ -462,6 +521,7 @@ greet()  # Output: Hello, Software Development student!
 - **()** - Parentheses for parameters (can be empty)
 - **:** - Colon to start the function body
 - **Indented code** - The function's code block
+- **Calling a function** - When you want to use the function. Write the function name followed by parentheses: `greet()`
 
 </Admonition>
 
@@ -535,16 +595,16 @@ introduce("Alice", 16, "Software Dev")
 ```
 
 ---
-layout: top-title-two-cols
+layout: top-title
 color: red
-zoom: 0.9
+zoom: 0.87
 ---
 
 ::title::
 
 # Functions with Return Values
 
-::left::
+::content::
 
 ## Returning Values from Functions
 
@@ -563,18 +623,28 @@ print(sum)  # Output: 8
 # Or use it directly
 print(add_numbers(10, 20))  # Output: 30
 ```
+<br>
 
-<Admonition title="Return vs Print" color="red">
+<Admonition title="Return vs Print" color="red-light">
 
 **print()** displays output to the screen
 
-**return** sends a value back to where the function was called, so you can use it in your code
+**return** sends a value back to where the function was called, so you can use it in your code.
+
+We are using functions to `return` values in our coding exercises. This makes the automated testing simpler, as well as teaching you good programming practices.
 
 </Admonition>
 
-::right::
+---
+layout: top-title-two-cols
+color: red
+zoom: 1
+---
+::title::
 
 ## More Return Examples
+
+::left::
 
 <v-clicks>
 
@@ -593,6 +663,7 @@ print(f"Average: {result}")
 ```
 
 </SpeechBubble>
+<br>
 
 <SpeechBubble color="green-light" position="l" shape="round">
 
@@ -609,6 +680,12 @@ else:
 ```
 
 </SpeechBubble>
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
 
 <SpeechBubble color="orange-light" position="l" shape="round">
 
@@ -634,53 +711,74 @@ print(f"Your grade: {grade}")
 </v-clicks>
 
 ---
-layout: top-title
-color: navy
-zoom: 1.1
+layout: top-title-two-cols
+color: green-light
+zoom: 0.8
 ---
 
 ::title::
 
 # Putting It All Together
 
-::content::
+::left::
 
 ## A Complete Example
 
-Here's a program that uses variables, conditions, loops, and functions:
+Here's a small study planner that uses variables, conditions, loops, and functions:
+
+### Functions
 
 ```python
-def check_temperature(temp):
-    """Determine if the temperature is comfortable"""
-    if temp < 15:
-        return "too cold"
-    elif temp > 30:
-        return "too hot"
+def categorize(minutes):
+    """Label a task by its expected duration"""
+    if minutes < 25:
+        return "short"
+    elif minutes <= 50:
+        return "medium"
     else:
-        return "just right"
+        return "long"
 
-def analyze_weekly_temperatures(temperatures):
-    """Analyze a week of temperature readings"""
+def summarize_plan(tasks):
+    """Print each task with a label and return totals"""
     total = 0
-    
-    for i, temp in enumerate(temperatures):
-        status = check_temperature(temp)
-        print(f"Day {i + 1}: {temp}°C - {status}")
-        total += temp
-    
-    average = total / len(temperatures)
-    return average
+    long_tasks = 0
+    # Using enumerate to give each task a number
+    for i, (name, mins) in enumerate(tasks, start=1): 
+        label = categorize(mins)
+        print(f"{i}. {name:12} {mins:>3} min - {label}")
+        total += mins
+        if mins > 50:
+            long_tasks += 1
 
+    average = total / len(tasks)
+    return total, average, long_tasks
+
+```
+::right::
+
+### Main Program 
+*These have only been separated to allow for fitting on the slide.*
+```python
 # Main program
-weekly_temps = [18, 22, 25, 20, 19, 23, 21]
-avg_temp = analyze_weekly_temperatures(weekly_temps)
-print(f"\nAverage temperature: {avg_temp:.1f}°C")
+# Plan of study tasks, each with a name and duration in minutes
+plan = [
+    ("Math revision", 30),
+    ("English essay", 60),
+    ("Software exercises", 20),
+    ("Break", 10),
+]
+
+# summarize_plan returns 3 values, so we unpack them here
+total, avg, longs = summarize_plan(plan)
+# \n prints a new line character. This makes the output cleaner.
+# f-string formats the output - putting the variables in the string and rounding avg
+print(f"\nTotal: {total} min, Avg: {avg:.1f} min, Long tasks: {longs}")
 ```
 
 ---
 layout: top-title
 color: green
-zoom: 1.2
+zoom: 0.9
 ---
 
 ::title::
@@ -693,23 +791,23 @@ zoom: 1.2
 
 <div>
 
-<SpeechBubble color="purple-light" shape="round" position="l">
+<SpeechBubble color="purple-light" shape="round" position="l" class="ns-c-tight">
 
 ## Variables
 - Store data in named containers
-- Common types: str, int, float, bool
+- Common types: `str`, `int`, `float`, `bool`
 - Use descriptive names in snake_case
 
 </SpeechBubble>
 
 <br>
 
-<SpeechBubble color="orange-light" shape="round" position="l">
+<SpeechBubble color="orange-light" shape="round" position="l" class="ns-c-tight">
 
 ## Conditions
-- Make decisions with if/elif/else
-- Use comparison operators (==, !=, >, <, >=, <=)
-- Combine conditions with and, or, not
+- Make decisions with `if/elif/else`
+- Use comparison operators (`==`, `!=`, `>`, `<`, `>=`, `<=`)
+- Combine conditions with `and`, `or`, `not`
 
 </SpeechBubble>
 
@@ -717,23 +815,24 @@ zoom: 1.2
 
 <div>
 
-<SpeechBubble color="sky-light" shape="round" position="l">
+<SpeechBubble color="sky-light" shape="round" position="r" class="ns-c-tight">
 
 ## Loops
-- **for loops**: Iterate over sequences
-- **while loops**: Repeat while condition is True
-- Control with break and continue
+- **`for` loops**: Iterate over *sequences*
+- **`while` loops**: Repeat as long as condition is `True`
+- Control with `break` and `continue`
 
 </SpeechBubble>
 
 <br>
 
-<SpeechBubble color="green-light" shape="round" position="l">
+<SpeechBubble color="green-light" shape="round" position="r" class="ns-c-tight">
 
 ## Functions
 - Reusable blocks of code
+- Start with `def` keyword
 - Accept parameters for input
-- Return values for output
+- `return` values for output
 - Make code organized and readable
 
 </SpeechBubble>

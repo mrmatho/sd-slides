@@ -1,6 +1,7 @@
 ---
 # try also 'default' to start simple
 theme: neversink
+lineNumbers: true
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -26,6 +27,7 @@ mdc: true
 layout: top-title
 hideInToc: false
 color: blue-light
+selectable: true
 # Theme: https://gureckis.github.io/slidev-theme-neversink/getting-started.html
 ---
 ::title::

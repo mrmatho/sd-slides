@@ -5,9 +5,11 @@ transition: fade
 class: text-center
 zoom: 1
 hideInToc: false
+lineNumbers: true
+selectable: true
 ---
 
-# Setup
+# Setup Python and Git for Software Development
 
 ## Git, Github, Python and VS Code
 
