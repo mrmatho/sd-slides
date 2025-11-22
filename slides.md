@@ -15,6 +15,7 @@ info: |
 defaults:
   hideInToc: true
   transition: fade
+  selectable: true
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
@@ -44,6 +45,15 @@ hide: false
 ---
 src: ./pages/2_python_basics.md
 hide: false
+---
+
+---
+src: ./pages/2_python_basics.md
+hide: false
+---
+
+---
+src: ./pages/2_setup_git_python.md
 ---
 
 ---
