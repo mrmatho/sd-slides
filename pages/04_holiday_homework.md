@@ -105,6 +105,6 @@ Then move on and try the next part: one problem shouldn't stop you from making p
 
 **Can I keep going with the Exercise 03, 04 etc.?**
 
-Sure. But 01 and 02 are the main game.
+Sure. <span v-mark.underline.red>But 01 and 02 are the main game</span>.
 
 </SpeechBubble>

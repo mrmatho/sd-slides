@@ -277,16 +277,16 @@ Python uses **indentation** (4 spaces) to define code blocks. All code that belo
 </Admonition>
 
 ---
-layout: top-title
+layout: top-title-two-cols
 color: orange
-zoom: 0.95
+zoom: 1.1
 ---
 
 ::title::
 
 # Comparison Operators
 
-::content::
+::left::
 
 ## Comparing Values
 
@@ -304,6 +304,8 @@ x >= y   # Greater than or equal to: True
 x <= y   # Less than or equal to: False
 ```
 
+::right::
+
 ## Using Comparisons in Conditions
 
 ```python
@@ -316,8 +318,9 @@ elif score >= 80:
 else:
     print("Grade: C or lower")
 ```
+<br>
 
-<Admonition title="Watch Out!" color="red">
+<Admonition title="Watch Out!" color="red-light">
 
 `=` is for **assignment** (giving a value to a variable)
 
@@ -404,14 +407,14 @@ else:
 
 <Admonition title="Tip" color="yellow-light">
 
-Use parentheses for complex conditions to make them clearer:
+Use parentheses (brackets) for complex conditions to make them clearer:
 
 `if (age >= 16 and has_license) or has_permit:`
 
 </Admonition>
 
 ---
-layout: top-title
+layout: top-title-two-cols
 color: green
 zoom: 1
 ---
@@ -420,7 +423,7 @@ zoom: 1
 
 # Loops: For Loops
 
-::content::
+::left::
 
 ## Repeating Actions with For Loops
 
@@ -441,6 +444,7 @@ for fruit in fruits:
 for letter in "Python":
     print(letter)
 ```
+::right::
 
 <Admonition title="The range() Function" color="green">
 
@@ -451,6 +455,7 @@ for letter in "Python":
 `range(0, 10, 2)` generates even numbers from 0 to 8 (step by 2)
 
 </Admonition>
+
 
 ---
 layout: top-title-two-cols
