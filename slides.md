@@ -38,22 +38,17 @@ color: blue-light
 <Toc depth="2" columns="2"/>
 
 ---
-src: ./pages/1_course_structure.md
+src: ./pages/01_course_structure.md
 hide: false
 ---
 
 ---
-src: ./pages/2_python_basics.md
+src: ./pages/02_setup_git_python.md
+---
+
+---
+
+---
+src: ./pages/03_python_basics.md
 hide: false
----
-
----
-src: ./pages/2_python_basics.md
-hide: false
----
-
----
-src: ./pages/2_setup_git_python.md
----
-
 ---
