@@ -34,7 +34,6 @@ selectable: true
 
 # Unit 3 & 4 Software Development
 
-
 ::content::
 
 <Toc depth="2" columns="2"/>
@@ -53,4 +52,11 @@ src: ./pages/02_setup_git_python.md
 ---
 src: ./pages/03_python_basics.md
 hide: false
+---
+
+---
+src: ./pages/04_holiday_homework.md
+hide: false
+---
+
 ---

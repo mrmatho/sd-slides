@@ -12,17 +12,67 @@ hideInToc: false
 
 ::content::
 
-Welcome to Python programming! This section covers the fundamental building blocks of Python programming:
+**Welcome to Python programming!**
 
-- **Variables** - Storing and working with data
-- **Conditions** - Making decisions in your code
-- **Loops** - Repeating actions efficiently
-- **Functions** - Organizing and reusing code
+This section covers the fundamental building blocks of Python programming:
+
+<div class="grid grid-cols-2 gap-4">
+
+<div>
+
+<SpeechBubble color="purple-light" shape="round" position="l" class="ns-c-tight">
+
+## Variables
+- Store data in named containers
+
+</SpeechBubble>
+
+<br>
+
+<SpeechBubble color="orange-light" shape="round" position="l" class="ns-c-tight">
+
+## Conditions
+- Make *decisions* with `if/elif/else`
+
+</SpeechBubble>
+
+</div>
+
+<div>
+
+<SpeechBubble color="sky-light" shape="round" position="r" class="ns-c-tight">
+
+## Loops
+- **`for` loops**: Iterate over *sequences*
+- **`while` loops**: Repeat as long as condition is `True`
+
+
+</SpeechBubble>
+
+<br>
+
+<SpeechBubble color="green-light" shape="round" position="r" class="ns-c-tight">
+
+## Functions
+- Reusable blocks of code
+
+
+</SpeechBubble>
+
+</div>
+
+</div>
+
+<style>
+  .grid {
+    margin-top: 2rem;
+  }
+</style>
 
 ---
 layout: top-title-two-cols
 color: purple
-zoom: 0.9
+zoom: 0.87
 ---
 
 ::title::
@@ -37,10 +87,10 @@ Variables are **containers** that store data values. Think of them as labeled bo
 
 ```python
 # Assigning values to variables
-name = "Alice"
-age = 16
-height = 1.65
-is_student = True
+name = "Alice" # String
+age = 16 # Integer
+height = 1.65 # Float
+is_student = True # Boolean
 ```
 <br> 
 
@@ -66,7 +116,7 @@ Variable names should be:
 
 ```python
 greeting = "Hello, World!"
-subject = 'Software Development'
+subject = 'Software Development' # Double or single quotes are fine
 ```
 
 </SpeechBubble>
@@ -78,6 +128,7 @@ subject = 'Software Development'
 ```python
 student_count = 25
 year_level = 11
+temperature = -5 # Negative numbers still integers
 ```
 
 </SpeechBubble>
@@ -87,7 +138,7 @@ year_level = 11
 **Float** - Decimal numbers
 
 ```python
-temperature = 23.5
+temperature = 23.5 # The decimal point makes it a float
 price = 19.99
 ```
 
@@ -98,7 +149,7 @@ price = 19.99
 **Boolean (bool)** - True or False
 
 ```python
-is_raining = False
+is_raining = False # Must be capitalized
 has_passed = True
 ```
 
@@ -138,7 +189,7 @@ price = float(price_str)  # 19.99
 
 ## Type Checking
 
-Use `type()` to check the data type:
+You can use `type()` to check the data type:
 
 ```python
 name = "Alice"
