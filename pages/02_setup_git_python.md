@@ -133,6 +133,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 ```
 
 **macOS/Linux**:
+
 ```bash
 curl -fsSL https://uv.sh/install.sh | bash
 ```
@@ -140,11 +141,13 @@ curl -fsSL https://uv.sh/install.sh | bash
 
 3. After installation, restart your Terminal or run `source ~/.uv/bin/uv.sh` to load `uv`.
 4. Verify the installation by running:
+
 ```bash
 uv --version
 ```
 
 5. Install 3.13 of Python using `uv`:
+
 ```bash
 uv install 3.13
 ```
@@ -161,5 +164,52 @@ color: orange-light
 ::content::
 
 To verify that Git, GitHub, Python, and VS Code are set up correctly, follow these steps:
-- If you haven't already, open VS Code and Choose "Clone Git Respository" from the welcome screen.
-- Clone this repository: `
+
+- Choose "Open Folder" in VS Code and create a new folder to play around with Python and Git.
+- Open the integrated terminal in VS Code (`Ctrl + \``) and run:
+
+```bash
+git --version
+python --version
+```
+
+- Create a new Python file (e.g., `test.py`) in VS Code and add the some code, eg.:
+
+```python
+print("Hello, World!)
+```
+
+**Save the file** and run it by pressing `F5` or the play button in VS Code.
+- If everything is set up correctly, you should see the output in the terminal.
+
+Use the Source Control panel in VS Code to initialize a Git repository, make changes, and commit them.
+
+---
+layout: top-title
+color: purple-light
+---
+
+::title::
+
+# Install Additional Python Packages
+
+::content::
+
+You may need additional Python packages for your projects. If you used `uv` to install Python, you can use its built-in package manager to install packages. If you have an existing python installed: you can instead use `pip`, which comes bundled with Python. (uv is just much faster)
+
+We want to install `pytest` for automatically testing our code. 
+To install `pytest`, run the following command in your terminal:
+
+```bash
+uv pip install pytest
+```
+
+(If not using uv, run `pip install pytest` instead.)
+
+Another useful package is `ruff` which helps make your code cleaner and more consistent. To install `ruff`, run:
+
+```bash
+uv pip install ruff
+```
+
+(If not using uv, run `pip install ruff` instead.)

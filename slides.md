@@ -1,5 +1,4 @@
 ---
-# try also 'default' to start simple
 theme: neversink
 lineNumbers: true
 # random image from a curated Unsplash collection by Anthony

@@ -269,6 +269,7 @@ elif temperature > 10:
 else:
     print("It's cold outside!")
 ```
+<br>
 
 <Admonition title="Indentation Matters!" color="yellow">
 
@@ -769,7 +770,7 @@ print(f"Your grade: {grade}")
 ---
 layout: top-title-two-cols
 color: green-light
-zoom: 0.8
+zoom: 0.92
 ---
 
 ::title::
@@ -777,10 +778,6 @@ zoom: 0.8
 # Putting It All Together
 
 ::left::
-
-## A Complete Example
-
-Here's a small study planner that uses variables, conditions, loops, and functions:
 
 ### Functions
 
@@ -813,7 +810,7 @@ def summarize_plan(tasks):
 ::right::
 
 ### Main Program 
-*These have only been separated to allow for fitting on the slide.*
+
 ```python
 # Main program
 # Plan of study tasks, each with a name and duration in minutes
@@ -827,9 +824,18 @@ plan = [
 # summarize_plan returns 3 values, so we unpack them here
 total, avg, longs = summarize_plan(plan)
 # \n prints a new line character. This makes the output cleaner.
-# f-string formats the output - putting the variables in the string and rounding avg
+# f-string formats the output 
+# putting the variables in the string and rounding avg to 1 dp
 print(f"\nTotal: {total} min, Avg: {avg:.1f} min, Long tasks: {longs}")
 ```
+
+<br>
+
+<Admonition title="Example Program" color="purple-light">
+
+This program stores a study plan as a list of tasks with durations, categorizes each task based on its length, and summarizes the total and average study time.
+
+</Admonition>
 
 ---
 layout: top-title
