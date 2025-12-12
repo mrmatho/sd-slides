@@ -59,3 +59,8 @@ hide: false
 ---
 
 ---
+src: ./pages/05_day1.md
+hide: false
+---
+
+---
