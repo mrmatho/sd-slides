@@ -64,3 +64,8 @@ hide: false
 ---
 
 ---
+src: ./pages/06_crud_apps.md
+hide: false
+---
+
+---

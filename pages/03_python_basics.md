@@ -447,7 +447,7 @@ for letter in "Python":
 ```
 ::right::
 
-<Admonition title="The range() Function" color="green">
+<Admonition title="The range() Function" color="green-light">
 
 `range(5)` generates numbers from 0 to 4 (5 numbers total)
 
@@ -614,7 +614,7 @@ def calculate_area(width, height):
 calculate_area(5, 10)  # Area: 50
 ```
 
-<Admonition title="Parameters vs Arguments" color="purple">
+<Admonition title="Parameters vs Arguments" color="purple-light">
 
 **Parameters** are variables in the function definition
 
