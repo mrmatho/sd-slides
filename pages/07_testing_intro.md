@@ -26,15 +26,15 @@ class: ns-c-tight
 
 ## On your mini-whiteboard
 
-You have created a program that takes an age as an input and outputs whether the person is an adult or not.
+**Scenario:** You have created a program that takes an age as an input and outputs whether the person is an adult or not.
 
 - How would you test this program?
 - Describe your whole process for testing this program.
 
 ---
 layout: top-title
-color: blue-light
-zoom: 1.1
+color: purple-light
+zoom: 1.5
 class: ns-c-tight
 ---
 
@@ -58,7 +58,7 @@ class: ns-c-tight
 
 ::title::
 
-# Testing
+# Testing Introduction
 
 ::content::
 
@@ -78,6 +78,7 @@ This means we need to think about how to break our code and test our ==boundarie
 layout: top-title
 color: blue-light
 zoom: 1.3
+class: ns-c-tight
 ---
 
 ::title::
@@ -93,6 +94,7 @@ When we write tests, we need to record the results of our tests. This is importa
 ---
 layout: top-title
 color: blue-light
+class: ns-c-tight
 ---
 ::title::
 
@@ -102,7 +104,7 @@ color: blue-light
 
 Test tables are the method that the Study Design uses to record test results. They are a structured way to organize and document the inputs, expected outputs, and actual outputs of our tests.
 
-**Test tables should include the following columns:**
+## Test tables should include the following columns:
 
 1. **Test Case**: A brief description of the test case. Sometimes called "Feature Tested" or just "Test"
 2. **Test Data**: The specific input values used for the test. Also called "Input"
@@ -139,6 +141,7 @@ color: blue-light
 zoom: 1.1
 class: ns-c-tight
 ---
+
 ::title::
 
 # Testing Strategy
@@ -155,6 +158,7 @@ To do this:
 - Each test is specific: it is there to test one thing at a time. ==Many small test cases > one big test case==
 - Each test is independent: it should not rely on the results of other tests.
 - Each test is repeatable: it should give the same results every time it is run with the same input.
+
 ---
 layout: top-title
 color: gray
