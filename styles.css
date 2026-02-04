@@ -2,6 +2,8 @@ li {
     margin-bottom: 0.5em;
 }
 
-th {
+.slidev-layout th {
     font-weight: bold;
+    background-color: #777;
+    color: white;
 }
