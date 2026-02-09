@@ -74,3 +74,8 @@ hide: false
 ---
 
 ---
+src: ./pages/08_module_design_tools.md
+hide: false
+---
+
+---
