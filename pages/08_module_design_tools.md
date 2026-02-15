@@ -114,7 +114,7 @@ For more complex SAC modules, you will receive an IPO chart. The first SAC has v
 
 ---
 layout: top-title
-zoom: 1.15
+zoom: 0.9
 color: green-light
 class: ns-c-tight
 ---
@@ -127,7 +127,7 @@ class: ns-c-tight
 
 | Input | Process | Output |
 | --- | --- | --- |
-| User Details (Name, age, emailValidate age (must be 18 or older) | If valid: "Welcome, [Name]!". If invalid: "Sorry, you must be 18 or older to enter." |
+| User Details (Name, age, email) | Validate age (must be 18 or older) | If valid: "Welcome, [Name]!". If invalid: "Sorry, you must be 18 or older to enter." |
 |   | Validate email address (must contain "@" and ".") | If valid: "Welcome, [Name]!". If invalid: "Sorry, you must provide a valid email address." |
 |  |  |  |
 | Daily hours, job type, weekend Y/n, public holiday Y/n | Calculate pay based on hours, job type, and whether it's a weekend or public holiday. Calculate tax based on pay. | Formatted Pay slip showing gross pay, tax, and net pay. |
