@@ -298,6 +298,7 @@ class: ns-c-tight
 
 Can you think of any other reasons to use a for loop?
 
+
 ---
 layout: top-title
 color: green
