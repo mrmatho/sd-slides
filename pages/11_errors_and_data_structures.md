@@ -213,3 +213,113 @@ Technically - a python list has some differences to a one-dimensional array in o
 </Admonition>
 
 ---
+layout: top-title
+color: blue-light
+zoom: 1.2
+class: ns-c-tight
+---
+
+::title::
+
+# Data Structures - Two-Dimensional Arrays (Lists of Lists)
+
+::content::
+
+A two-dimensional array is a collection of elements arranged in a grid or table format. In Python, we can represent two-dimensional arrays using **lists of lists**.
+
+For example, a 3x3 matrix can be represented as:
+
+```python
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+```
+Which could also be written as:
+
+```python
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+```
+In this example, `matrix` is a list that contains three sublists, each representing a row of the matrix.
+
+---
+layout: top-title
+color: blue-light
+zoom: 1.2
+class: ns-c-tight
+---
+
+::title::
+
+# Data Structures - Records (Dictionaries)
+
+::content::
+
+A record is a collection of fields that can contain different data types. Unlike arrays, records are **not ordered** and are accessed using **field names** rather than indices. In Python, we use **dictionaries** to represent records. We could instead use Objects and Classes to represent records - we will cover that for SAC 3 & 4.
+
+Dictionaries are created using curly braces `{}` and consist of key-value pairs. For example:
+
+```python
+person = {
+    "name": "Alice",
+    "age": 30,
+    "city": "New York"
+}
+```
+
+In pseudocode records are more commonly written as:
+
+```
+Person.Name = "Alice"
+Person.Age = 30
+Person.City = "New York"
+```
+---
+layout: top-title
+color: blue-light
+zoom: 1
+class: ns-c-tight
+---
+::title::
+
+# Using Dictionaries in Python
+
+::content::
+
+Dictionaries are accessed using their keys. For example, to access the name of the person in the previous example, we would use:
+
+```python
+print(person["name"])  # Output: Alice
+```
+
+You can also add new key-value pairs to a dictionary:
+
+```python
+person["email"] = "alice@example.com"
+```
+
+And you can modify existing values:
+
+```python
+person["age"] = 31
+```
+
+---
+layout: top-title
+color: blue-light
+zoom: 1.2
+---
+
+::title::
+
+# Do Yourself: Using Data Structures
+
+::content::
+
+1. Create a list of your favourite sports.
+2. Create a list of lists to represent a game board for tic-tac-toe.
+3. Create a dictionary to represent a City, with fields for name, population, and country.
+4. Create a dictionary to represent a Student, with fields for name, age, and a list of their favourite subjects.
+
+---
