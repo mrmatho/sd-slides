@@ -1,4 +1,5 @@
 ---
+transition: fade
 layout: top-title-two-cols
 color: yellow
 zoom: 0.75

@@ -182,7 +182,7 @@ We need to understand how to create, access, and modify these data structures, a
 ---
 layout: top-title
 color: blue-light
-zoom: 1.2
+zoom: 1
 class: ns-c-tight
 ---
 ::title::
@@ -215,7 +215,7 @@ Technically - a python list has some differences to a one-dimensional array in o
 ---
 layout: top-title
 color: blue-light
-zoom: 1.2
+zoom: 1
 class: ns-c-tight
 ---
 
