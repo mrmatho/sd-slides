@@ -322,4 +322,5 @@ zoom: 1.2
 3. Create a dictionary to represent a City, with fields for name, population, and country.
 4. Create a dictionary to represent a Student, with fields for name, age, and a list of their favourite subjects.
 
+**Use the Student dictionary to print out a sentence about each of the subjects they like. For example, "Alice likes Math", "Alice likes Science", etc.**
 ---
