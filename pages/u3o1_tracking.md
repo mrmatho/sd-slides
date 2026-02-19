@@ -16,12 +16,12 @@ class: ns-c-tight
 
 <div class="ns-c-tight">
 
-- Data Types :heavy_check_mark:
-- Variables, Control Structures, Conditions :heavy_check_mark:
-- Naming Conventions :heavy_check_mark:
-- Error Types
-- Design Tools :heavy_check_mark:
-- Internal Documentation :heavy_check_mark:
+- Data Types ✅
+- Variables, Control Structures, Conditions ✅
+- Naming Conventions ✅
+- ==Error Types== 
+- Design Tools ✅
+- Internal Documentation ✅
 
 </div>
 
@@ -35,13 +35,13 @@ class: ns-c-tight
 
 <div class="ns-c-tight">
 
-- Validation
+- Validation 
 - Requirements, Constraints and Scope
-- Testing :heavy_check_mark:
+- Testing ✅
 - Variable Scope (Local and Global)
-- Data Dictionaries
+- Data Dictionaries ✅
 - File Handling and File Types (Text, CSV, XML)
-- Data Structures
+- ==Data Structures==
 
 </div>
 
