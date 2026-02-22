@@ -20,7 +20,7 @@ class: ns-c-tight
 - Data Types ✅
 - Variables, Control Structures, Conditions ✅
 - Naming Conventions ✅
-- ==Error Types== 
+- Error Types ✅ 
 - Design Tools ✅
 - Internal Documentation ✅
 
@@ -36,13 +36,13 @@ class: ns-c-tight
 
 <div class="ns-c-tight">
 
-- Validation 
+- ==Validation==
 - Requirements, Constraints and Scope
 - Testing ✅
 - Variable Scope (Local and Global)
 - Data Dictionaries ✅
-- File Handling and File Types (Text, CSV, XML)
-- ==Data Structures==
+- File Handling and File Types (Text, CSV, XML) 
+- Data Structures ✅
 
 </div>
 
