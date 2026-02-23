@@ -36,12 +36,12 @@ class: ns-c-tight
 
 <div class="ns-c-tight">
 
-- ==Validation==
+- Validation ✅
 - Requirements, Constraints and Scope
 - Testing ✅
 - Variable Scope (Local and Global)
 - Data Dictionaries ✅
-- File Handling and File Types (Text, CSV, XML) 
+- ==File Handling and File Types (Text, CSV, XML)== 
 - Data Structures ✅
 
 </div>
@@ -60,7 +60,7 @@ class: ns-c-tight
 - Searching and Sorting Algorithms
 - GUI Development
 - Functions and Methods
-- Breakpoints, Debugging and Tracing
+- Breakpoints ✅, Debugging and Tracing
 
 </div>
 

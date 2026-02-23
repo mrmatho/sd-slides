@@ -324,3 +324,44 @@ zoom: 1.2
 
 **Use the Student dictionary to print out a sentence about each of the subjects they like. For example, "Alice likes Math", "Alice likes Science", etc.**
 ---
+layout: top-title-two-cols
+color: purple
+zoom: 1.1
+class: ns-c-tight
+---
+
+::title::
+
+# Debugging Strategies
+
+::left::
+
+Remember, the debugging strategies relate directly to which types of errors you are trying to find. 
+
+<Admonition color="red-light" title="Syntax Errors" icon="mdi-alert">
+
+
+**Code doesn't run at all.**
+- Find the error even before you run the code: use VS Code's syntax highlighting and error detection features.
+- Read the error message carefully: it will tell you the type of error, the line number, and a description of the error.
+- Expect the error to be on the line number given, but also quotes, brackets and indentation around that line.
+
+</Admonition>
+
+::right::
+
+<Admonition color="orange-light" title="Logic Errors" icon="mdi-alert">
+
+ **Code runs but produces incorrect results.**
+- Use print or breakpoints to check the values of variables at different points in the code.
+- Writing a good test table can help you identify edge cases that may be causing logic errors.
+- Rubber duck debugging
+</Admonition>
+<br />
+<Admonition color="blue-light" title="Runtime Errors" icon="mdi-alert">
+
+**Code runs but crashes at a certain point.**
+- Use breakpoints to step through the code and identify where the error occurs.
+- Read the error message carefully to understand the type of runtime error and what might be causing it.
+
+</Admonition>
