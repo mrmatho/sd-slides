@@ -1,0 +1,3 @@
+Total Sales: 143.00
+Average Sales: 35.75
+Max Sales: 100.00

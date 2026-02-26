@@ -323,7 +323,8 @@ zoom: 1.2
 4. Create a dictionary to represent a Student, with fields for name, age, and a list of their favourite subjects.
 
 **Use the Student dictionary to print out a sentence about each of the subjects they like. For example, "Alice likes Math", "Alice likes Science", etc.**
----
+-
+--
 layout: top-title-two-cols
 color: purple
 zoom: 1.1
