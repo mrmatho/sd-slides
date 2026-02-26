@@ -243,6 +243,8 @@ class: ns-c-tight
 
 # Scenario 1, Step 3: Writing to a file
 
+::content::
+
 To write data to a file, we can also use the `with` statement to ensure the file is properly closed after writing. We are also going to put in a `try-except` block to catch any potential errors - writing to files often has more potential for errors than reading
 
 ```python
@@ -266,7 +268,7 @@ def write_summary(file_path: str, summary: dict[str, float]) -> bool:
 ---
 layout: top-title
 color: blue
-zoom: 1
+zoom: 1.3
 class: ns-c-tight
 ---
 
@@ -275,5 +277,8 @@ class: ns-c-tight
 
 ::content::
 
-- Create a file called `input_sales.txt` in the same directory as your Python file
-- Start by adding some valid
+- You've been testing your code as you go, now it's time to identify what good testing looks like here:
+    - Testing an entirely valid file
+    - Testing an entirely invalid file
+    - Testing a file with a mix of valid and invalid data
+    - Testing an empty file
