@@ -59,7 +59,7 @@ class: ns-c-tight
 
 - Searching and Sorting Algorithms
 - GUI Development
-- Functions and Methods
+- Functions ✅ and Methods
 - Breakpoints ✅, Debugging and Tracing
 
 </div>
