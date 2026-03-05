@@ -46,7 +46,7 @@ class: ns-c-tight
 
 </div>
 
-**SAC Module 2: Reading and Writing Files** (90 mins, 15 marks)
+**SAC Module 2: Reading and Writing Files** (90 mins, 20 marks)
 
 </SpeechBubble>
 
@@ -64,7 +64,7 @@ class: ns-c-tight
 
 </div>
 
-**SAC Module 3: Searching and Sorting in a GUI** (180 mins, 25 marks)
+**SAC Module 3: Searching and Sorting in a GUI** (180 mins, 30 marks)
 
 </SpeechBubble>
 <br>
@@ -83,6 +83,6 @@ class: ns-c-tight
 
 </div>
 
-**SAC Module 4: Classes and Objects in a GUI** (240 mins, 30 marks)
+**SAC Module 4: Classes and Objects in a GUI** (240 mins, 40 marks)
 
 </SpeechBubble>
