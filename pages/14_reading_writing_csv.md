@@ -290,7 +290,7 @@ with open('output.csv', mode='w', newline='') as file:
 ---
 layout: top-title
 color: green
-zoom: 1.2
+zoom: 1
 class: ns-c-tight
 ---
 
@@ -303,11 +303,14 @@ class: ns-c-tight
 ### Writing CSV Files
 
 **Modify your `csv_sales.py` file to do the following:**
+
 1. Write a function `write_csv()` that takes a list of dictionaries and writes it to a new CSV file called `sales_summary.csv`. 
 2. Add a new field to your data: ProfitLoss which is calculated as Sales - Cost. Make sure to include this new field in your output CSV file.
 3. Test your function writes correct values to the `sales_summary.csv` file. 
 
 ### Working with larger data
+
 **Modify your `csv_afl.py` file to do the following:**
+
 4. Write a function `write_team_wins()` that takes the team wins data you calculated in the previous task and writes it to a new CSV file called `team_wins_by_year.csv`. The CSV file should have three columns: Year, Team and Wins.
 5. Test your function writes correct values to the `team_wins_by_year.csv` file.
