@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="12 Software Development">
+    <student id="1001">
+        <name>Alice Chen</name>
+        <email>alice.chen@school.edu</email>
+        <grade>A</grade>
+    </student>
+    <student id="1002">
+        <name>Marcus Webb</name>
+        <email>marcus.webb@school.edu</email>
+        <grade>B+</grade>
+    </student>
+</class>

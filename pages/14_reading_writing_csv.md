@@ -252,7 +252,7 @@ with open('output.csv', mode='w', newline='') as file:
 ---
 layout: top-title-two-cols
 color: blue
-zoom: 1.1
+zoom: 1
 class: ns-c-tight
 ---
 
