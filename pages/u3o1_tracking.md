@@ -86,3 +86,85 @@ class: ns-c-tight
 **SAC Module 4: Classes and Objects in a GUI** (240 mins, 40 marks)
 
 </SpeechBubble>
+
+---
+transition: fade
+layout: top-title-two-cols
+color: yellow
+zoom: 0.75
+class: ns-c-tight
+---
+::title::
+
+# Unit 3 - Area of Study 2: Analysis and Design
+
+::left::
+
+<SpeechBubble position="c" color="yellow" shape="round">
+
+### Project Proposal (No Marks but required for an S)
+
+- reasons why individuals and organisations undertake software development projects
+- features of a brief that documents a problem
+
+</SpeechBubble>
+
+<br>
+
+<SpeechBubble position="c" color="black" shape="round">
+
+### Project Plan (SAT Criterion 1 - 10 marks)
+
+- Project Management
+- Task Identification and Prioritisation
+- Gantt Charts
+
+</SpeechBubble>
+
+<br>
+
+<SpeechBubble position="c" color="red" shape="round">
+
+### Analytical Tools (SAT Criterion 2 - 10 marks)
+
+- Data Collection
+- Use Case Diagrams
+- Context Diagrams
+- Data Flow Diagrams
+
+</SpeechBubble>
+
+::right::
+
+<SpeechBubble position="c" color="purple" shape="round">
+
+### Software Requirements Specification (SAT Criterion 3 - 10 marks)
+
+- Requirements, Constraints and Scope
+- File Management Techniques
+
+</SpeechBubble>
+
+<br>
+
+<SpeechBubble position="c" color="orange" shape="round">
+
+### Design Ideas (SAT Criterion 4 - 10 marks)
+
+- Ideation and Brainstorming
+- Design Tools
+- Evaluation Criteria
+- Characteristics of User Experience
+
+</SpeechBubble>
+
+<br>
+
+<SpeechBubble position="c" color="blue" shape="round">
+
+### Final Designs (SAT Criterion 5 - 10 marks)
+
+- Evaluating Designs
+- Design Principles
+
+</SpeechBubble>

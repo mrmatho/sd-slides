@@ -1,13 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <class name="12 Software Development">
     <student id="1001">
         <name>Alice Chen</name>
         <email>alice.chen@school.edu</email>
-        <grade>A</grade>
-    </student>
+            <assessment>
+                <grade>B</grade>
+                <title>Test 1</title>
+            </assessment>
+            <assessment>
+                <title>Project</title>
+                <grade>UG</grade>
+            </assessment>
+
+    <assessment><title>Exam</title><grade>A+</grade></assessment></student>
     <student id="1002">
         <name>Marcus Webb</name>
         <email>marcus.webb@school.edu</email>
-        <grade>B+</grade>
+            <assessment>
+                <grade>B</grade>
+                <title>Test 1</title>
+            </assessment>
+            <assessment>
+                <title>Project</title>
+                <grade>UG</grade>
+            </assessment>
     </student>
 </class>

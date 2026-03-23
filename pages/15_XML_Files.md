@@ -108,6 +108,3 @@ for order in root.findall('order'):
 - If we wanted all the elements (including things other than orders) we could use `root.iter()` instead of `root.findall('order')`.
 
 
-
----
-layout: top-title-two-cols
