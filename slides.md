@@ -117,3 +117,10 @@ hide: false
 src: ./pages/16_project_management.md
 hide: false
 ---
+
+---
+src: ./pages/17_streamlit_gui_basics.md
+hide: false
+---
+
+---
