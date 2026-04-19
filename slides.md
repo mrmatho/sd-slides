@@ -129,3 +129,8 @@ hide: false
 ---
 
 ---
+src: ./pages/19_data_collection_methods.md
+hide: false
+---
+
+---
