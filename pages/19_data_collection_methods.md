@@ -145,7 +145,7 @@ The SAT Criteria requires you to collect data to inform your functional and non-
 layout: top-title
 color: purple
 transition: fade
-zoom: 1.1
+zoom: 1.2
 ---
 
 ::title::
@@ -157,6 +157,26 @@ zoom: 1.1
 **Assuming that time is not a constraint, which one of the following is the most appropriate technique to collect detailed and authentic data about an existing information system?**
 
 A. reports
+
 B. surveys
+
 C. interviews
+
 D. observations
+
+---
+layout: top-title
+color: purple
+transition: fade
+zoom: 1.4
+---
+
+::title::
+
+# Past Exam Question (Short Answer 2022)
+
+::content::
+
+*Short-Answer (2022 Case Study):* The IszCool Canteen app is an online ordering system. IszCool Solutions is keen to ensure that the new app is well received and used by the students at Centurion Secondary College.
+
+**Describe two data collection methods that IszCool Solutions could use to determine the students’ expectations of the new canteen app (2 marks)**
