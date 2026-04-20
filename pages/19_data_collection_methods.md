@@ -180,3 +180,48 @@ zoom: 1.4
 *Short-Answer (2022 Case Study):* The IszCool Canteen app is an online ordering system. IszCool Solutions is keen to ensure that the new app is well received and used by the students at Centurion Secondary College.
 
 **Describe two data collection methods that IszCool Solutions could use to determine the students’ expectations of the new canteen app (2 marks)**
+
+---
+layout: top-title-two-cols
+color: blue
+transition: fade
+zoom: 1.2
+---
+
+::title::
+
+# Converting Pseudocode into Python Code
+
+Note similarities and differences
+
+::left::
+
+```
+# Pseudocode
+function selectionSort(A):
+  for i = 0 to length(A) - 2:
+    minIndex = i
+    for j = i + 1 to length(A) - 1:
+      if A[j] < A[minIndex]:
+        minIndex = j
+    swap A[i] and A[minIndex]
+  return A
+```
+::right::
+```python
+# Python Code
+def selection_sort(A):
+    for i in range(len(A) - 1):
+        min_index = i
+        for j in range(i + 1, len(A)):
+            if A[j] < A[min_index]:
+                min_index = j
+        A[i], A[min_index] = A[min_index], A[i]
+    return A
+
+my_list = [33, 9, 21, 100, 0, -2]
+sorted_list = selection_sort(my_list)
+print(sorted_list)  # Output: [-2, 0, 9, 21, 33, 100]
+```
+
+
