@@ -126,9 +126,9 @@ class: ns-c-tight
 
 ::content::
 
-![Includes and Extends](/img/includes_extends.png)
+<img src="/img/includes_extends.png" alt="Includes and Extends" style="width: 500px; float: right">
 
-Note that: 
+***Note that: ***
 
 - The arrows go in opposite directions: an include relationship points **from the base** use case **to the included** use case, while an extend relationship points **from the extending use case to the base** use case.
 - The extend should usually show the condition for when extend occurs. 
@@ -153,3 +153,24 @@ class: ns-c-tight
   - Who are the actors in this scenario?
   - What are the use cases in this scenario?
   - Draw the use case diagram.
+
+
+  ---
+layout: top-title
+color: red
+zoom: 1.2
+class: ns-c-tight
+---
+
+::title::
+
+Use Case Diagrams for the SAT
+
+::content::
+
+Your use case diagrams for the SAT need to represent the findings from your data collection. You identify: 
+
+- The actors involved in your project. For many projects, this will only be one or two
+- The use cases that represent the different ways users interact with the system. For many projects, this will be around 6-15 use cases.
+- Ensure that the information in your use case diagram is drawn directly from the data you collected. 
+- Use the relationships (association, include, extend) to show how the use cases are connected.
