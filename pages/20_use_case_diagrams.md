@@ -58,7 +58,7 @@ class: ns-c-tight
 - They are never named with their name (eg. "Adam", "Belinda", etc.) but rather with their role (eg. "Customer", "Admin", etc.)
 - An actor can have multiple use cases, and a use case can be associated with multiple actors
 
-![Actor](\img\actor.png)
+![Actor](/img/actor.png)
 ---
 layout: top-title
 color: green
