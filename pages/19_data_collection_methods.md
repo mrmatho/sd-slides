@@ -185,14 +185,12 @@ zoom: 1.4
 layout: top-title-two-cols
 color: blue
 transition: fade
-zoom: 1.2
+zoom: 1.3
 ---
 
 ::title::
 
 # Converting Pseudocode into Python Code
-
-Note similarities and differences
 
 ::left::
 

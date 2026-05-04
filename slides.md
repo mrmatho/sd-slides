@@ -27,6 +27,7 @@ layout: top-title
 hideInToc: false
 color: blue-light
 selectable: true
+zoom: 0.9
 # Theme: https://gureckis.github.io/slidev-theme-neversink/getting-started.html
 ---
 ::title::
@@ -35,7 +36,7 @@ selectable: true
 
 ::content::
 
-<Toc depth="2" columns="2"/>
+<Toc depth="2" columns="3"/>
 
 ---
 src: ./pages/01_course_structure.md
@@ -130,6 +131,11 @@ hide: false
 
 ---
 src: ./pages/19_data_collection_methods.md
+hide: false
+---
+
+---
+src: ./pages/20_use_case_diagrams.md
 hide: false
 ---
 
