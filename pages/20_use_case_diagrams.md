@@ -43,7 +43,7 @@ A **use case diagram** is a visual representation of the interactions between us
 ---
 layout: top-title
 color: green
-zoom: 1
+zoom: 1.2
 class: ns-c-tight
 ---
 ::title::
@@ -58,6 +58,7 @@ class: ns-c-tight
 - They are never named with their name (eg. "Adam", "Belinda", etc.) but rather with their role (eg. "Customer", "Admin", etc.)
 - An actor can have multiple use cases, and a use case can be associated with multiple actors
 
+![Actor](\img\actor.png)
 ---
 layout: top-title
 color: green
@@ -126,7 +127,6 @@ class: ns-c-tight
 ::content::
 
 ![Includes and Extends](/img/includes_extends.png)
-![alt text](image.png)
 
 Note that: 
 
