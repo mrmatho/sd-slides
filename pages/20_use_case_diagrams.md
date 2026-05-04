@@ -126,6 +126,7 @@ class: ns-c-tight
 ::content::
 
 ![Includes and Extends](/img/includes_extends.png)
+![alt text](image.png)
 
 Note that: 
 
