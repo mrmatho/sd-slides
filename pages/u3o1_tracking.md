@@ -41,7 +41,7 @@ class: ns-c-tight
 - Testing ✅
 - Variable Scope (Local and Global)
 - Data Dictionaries ✅
-- ==File Handling and File Types (Text, CSV, XML)== 
+- File Handling and File Types (Text, CSV, XML) ✅
 - Data Structures ✅
 
 </div>
@@ -57,10 +57,10 @@ class: ns-c-tight
 
 ### Searching and Sorting
 
-- Searching and Sorting Algorithms
-- GUI Development
-- Functions ✅ and Methods
-- Breakpoints ✅, Debugging and Tracing
+- Searching and Sorting Algorithms ✅
+- GUI Development ✅
+- Functions ✅ and Methods ✅
+- Breakpoints ✅, Debugging ✅ and Tracing ✅
 
 </div>
 
@@ -74,7 +74,7 @@ class: ns-c-tight
 
 <div class="ns-c-tight">
 
-- Classes and Objects
+- ==Classes and Objects==
 - Object-Oriented Programming 
   - Abstraction
   - Encapsulation
@@ -102,7 +102,7 @@ class: ns-c-tight
 
 <SpeechBubble position="c" color="yellow" shape="round">
 
-### Project Proposal (No Marks but required for an S)
+### Project Proposal (Part of SAT Criterion 1)
 
 - reasons why individuals and organisations undertake software development projects
 - features of a brief that documents a problem
@@ -115,9 +115,9 @@ class: ns-c-tight
 
 ### Project Plan (SAT Criterion 1 - 10 marks)
 
-- Project Management
-- Task Identification and Prioritisation
-- Gantt Charts
+- Project Management ✅
+- Task Identification and Prioritisation ✅
+- Gantt Charts ✅
 
 </SpeechBubble>
 
@@ -127,10 +127,10 @@ class: ns-c-tight
 
 ### Analytical Tools (SAT Criterion 2 - 10 marks)
 
-- Data Collection
-- Use Case Diagrams
-- Context Diagrams
-- Data Flow Diagrams
+- Data Collection ✅
+- Use Case Diagrams ✅
+- ==Context Diagrams==
+- ==Data Flow Diagrams==
 
 </SpeechBubble>
 

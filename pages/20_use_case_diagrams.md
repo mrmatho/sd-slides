@@ -137,7 +137,7 @@ class: ns-c-tight
 ---
 layout: top-title
 color: blue-light
-zoom: 1
+zoom: 1.2
 class: ns-c-tight
 ---
 
@@ -155,7 +155,7 @@ class: ns-c-tight
   - Draw the use case diagram.
 
 
-  ---
+---
 layout: top-title
 color: red
 zoom: 1.2
@@ -174,3 +174,4 @@ Your use case diagrams for the SAT need to represent the findings from your data
 - The use cases that represent the different ways users interact with the system. For many projects, this will be around 6-15 use cases.
 - Ensure that the information in your use case diagram is drawn directly from the data you collected. 
 - Use the relationships (association, include, extend) to show how the use cases are connected.
+
