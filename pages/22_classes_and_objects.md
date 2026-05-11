@@ -202,7 +202,7 @@ class Person:
 layout: top-title
 color: blue-light
 transition: fade
-zoom: 1
+zoom: 1.3
 class: ns-c-tight
 ---
 
@@ -212,17 +212,19 @@ class: ns-c-tight
 
 ::content::
 
-Use the Person class example to create a class called `Car` that has attributes for `make`, `model`, and `year`, and a method called `describe` that returns a string describing the car.
+Use the Person class example to **create a new class called `Car`** that has **attributes for `make`, `model`, and `year`**, and a **method called `describe`** that returns a string describing the car.
+
+Include code to test that your new Car class works as expected.
 
 ```python
-from datetime import datetime
-
 class Person:
     def __init__(self, name, age):
         self.name = name  
         self.age = age    
-        self.created_date = datetime.now()  
 
     def greet(self):  
         return f"Hi, my name is {self.name}. I am {self.age}."
+
+my_person = Person("Bob", 48)
+print(my_person.greet())
 ```

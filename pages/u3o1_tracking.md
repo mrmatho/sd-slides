@@ -129,8 +129,8 @@ class: ns-c-tight
 
 - Data Collection ✅
 - Use Case Diagrams ✅
-- ==Context Diagrams==
-- ==Data Flow Diagrams==
+- Context Diagrams ✅
+- Data Flow Diagrams ✅
 
 </SpeechBubble>
 
