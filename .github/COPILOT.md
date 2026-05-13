@@ -30,24 +30,49 @@ Scripts come from `package.json` and use the installed Slidev CLI.
 - Add links to new markdown files in `slides.md`, using `src: ./pages/your_page.md` to include them.
 - Sections of the presentation go in `pages/*.md` — each file can hold slide fragments or whole sections and can be included with Slidev's `---` separators.
 - The first slide for each section should have `hideInToc: false` so it appears in the table of contents.
-- Vue components live in `components/` and can be imported into slide markdown using a `<script setup>` block.
-
-Example: import and use a component in a slide markdown file
-
-```markdown
-<script setup>
-import Counter from '../components/Counter.vue'
-</script>
-
-<Counter />
-```
+- Reusable Vue components go in `components/` and can be imported into markdown files for use in slides.
 
 ## Editing conventions & tips
 
-- Keep slides short — one idea per slide.
+- Keep slides short and scannable: one core teaching goal per slide.
 - Prefer small, focused components in `components/` so slides stay simple.
 - Use `snippets/external.ts` for shared helper functions or sample code used across slides.
 - If you add dependencies, update `package.json` and run `npm install`.
+- Match existing tone: plain-English explanations first, then code examples.
+- Reuse color consistently inside a section (for example, keep one concept mapped to one color across explanation and summary slides).
+
+## Slide writing playbook (project-specific)
+
+This project already uses a consistent pattern in multiple files. Follow this pattern when creating or revising content:
+
+- Start sections with a cover or top-title slide and set `hideInToc: false` on the first slide in that section.
+- Use `layout: top-title-two-cols` for most teaching slides.
+- Put concept explanation on the left (`::left::`) and code/example on the right (`::right::`).
+- Use `class: ns-c-tight` when content is list-heavy or includes bubbles/admonitions.
+- Adjust `zoom` deliberately (common range in this repo: `0.75` to `1.1`) rather than shrinking font by adding excessive text.
+
+## Text density rules
+
+Use these practical limits to avoid overcrowded slides:
+
+- Title: keep to one line where possible.
+- Intro paragraph slides: 60-90 words total.
+- Two-column slides: about 40-70 words per column before bullets/code.
+- Bullets: 3-6 bullets per block, ideally one line each.
+- Code on mixed text+code slides: around 12-20 lines.
+- Code-focused slides: around 20-30 lines max.
+
+Split the slide when any of these happen:
+
+- You need `zoom < 0.8` just to make text fit.
+- A code block plus explanation no longer fits without reducing readability.
+- A single slide tries to teach setup + concept + usage + challenge all at once.
+
+If content is dense, split into a short sequence such as:
+
+- `Part 1`: concept/base class
+- `Part 2`: extension/subclass/variation
+- `Part 3`: usage/demo/check
 
 ## Layout conventions on slides
 
@@ -58,6 +83,25 @@ The layout goes in the frontmatter of each slide or section. Here are my layout 
     - Add a `color:` property to change the accent color (e.g. `color: green`)
     - Include `::title::`, `::left::`, and `::right::` markers to define the title and column content.
 - Use `layout: full` for slides that need more space, such as code examples or images.
+- Use `layout: top-title` for section intros, summaries, or single-flow content.
+
+## Theme formatting features to use more often
+
+The Neversink theme supports these features already used in this repo:
+
+- `SpeechBubble`: highlight key definitions, key instructions, and concept callouts.
+- `Admonition`: warnings, common mistakes, tips, and terminology notes.
+- `v-click` / `v-clicks`: reveal answers or multi-step content progressively.
+- `Toc`: section overview on intro slides.
+- Utility classes like grid layouts (`grid grid-cols-2 gap-4`) for compact overviews.
+- `>` blockquotes for emphasis or short reminders.
+Recommended usage patterns:
+
+- Use one `SpeechBubble` per key term definition to create visual anchors.
+- For paired concept slides, keep bubble colors consistent across the section and summary.
+- Use `Admonition` for high-value constraints only (for example, indentation rules, assignment vs comparison).
+- Use `v-click` for answer reveals and `v-clicks` for progressive examples, not for every bullet.
+- Use short `<br>` spacing and avoid stacking too many large components in one column.
 
 ## Deploying
 
@@ -101,11 +145,161 @@ The Neversink theme provides a built-in `<SpeechBubble>` component. Use it to hi
 
 - Use `position="r"` for bubbles in the left column (tail points right toward content).
 - Use `position="l"` for bubbles in the right column (tail points left toward content).
+- `position="c"` is also used in this project for centered bubble cards in roadmap/tracking slides.
 - Wrap content in `<div class="ns-c-tight">` inside the bubble if you need tighter line spacing.
 - You can nest markdown (headings, lists, bold) inside the component.
 
 ## Available Layouts
 
+- `cover`: section title slides.
+- `top-title`: single-flow content, intro, or summary.
+- `top-title-two-cols`: primary teaching layout for concept + example.
+- `quote`: single statement emphasis.
+- `full`: large code/image content.
+
+## Slide quality checklist
+
+Before finishing a slide update, quickly check:
+
+- Is the learning objective obvious from the title?
+- Can each column be scanned in under 20 seconds?
+- Is there exactly one visual emphasis technique (bubble/admonition/reveal) doing the heavy lifting?
+- Is text readable at presentation distance without reducing zoom too far?
+- Should this be split into two or more slides for clarity?
+
+## Copy-ready slide templates
+
+Use these starter templates when creating new pages.
+
+### 1) Concept slide (definition + key points)
+
+```markdown
+---
+layout: top-title-two-cols
+color: purple
+transition: fade
+zoom: 1
+class: ns-c-tight
+---
+
+::title::
+
+# Topic Name
+
+::left::
+
+### The idea
+
+Brief plain-English explanation (2-4 lines).
+
+<SpeechBubble position="l" color="purple-light" shape="round">
+
+**Definition:** One sentence that students should remember.
+
+</SpeechBubble>
+
+- Key point 1
+- Key point 2
+- Key point 3
+
+::right::
+
+### In code / example
+
+```python
+# 10-18 lines is ideal on this style of slide
+```
+```
+
+### 2) Worked example slide (process + result)
+
+```markdown
+---
+layout: top-title-two-cols
+color: blue
+transition: fade
+zoom: 0.95
+class: ns-c-tight
+---
+
+::title::
+
+# Worked Example — Topic Name
+
+::left::
+
+### Steps
+
+1. Step one in plain language.
+2. Step two.
+3. Step three.
+
+<Admonition title="Watch Out" color="yellow-light">
+
+One common mistake and how to avoid it.
+
+</Admonition>
+
+::right::
+
+```python
+# Show input -> process -> output
+# Keep it to one focused example
+```
+
+<v-click>
+
+Expected output / answer reveal.
+
+</v-click>
+```
+
+### 3) Check-for-understanding slide (question + reveal)
+
+```markdown
+---
+layout: top-title-two-cols
+color: green
+transition: fade
+zoom: 1
+class: ns-c-tight
+---
+
+::title::
+
+# Check for Understanding
+
+::left::
+
+Prompt:
+
+1. Question item one
+2. Question item two
+3. Question item three
+
+::right::
+
+Options / criteria:
+
+- A. Option
+- B. Option
+- C. Option
+
+<v-click>
+
+**Answers:**
+1. ...
+2. ...
+3. ...
+
+</v-click>
+```
+
+Template usage tips:
+
+- Keep one learning objective per slide.
+- If a template grows beyond readable size, split it into Part 1/2/3 slides.
+- Keep color mappings consistent across concept and summary slides.
 
 ## Quality gates (recommended)
 
