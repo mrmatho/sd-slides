@@ -77,6 +77,33 @@ The layout goes in the frontmatter of each slide or section. Here are my layout 
 - If a component doesn't render in a slide, ensure the import path is correct and the component has a default export.
 - Check for closing tags in markdown (e.g. unclosed code blocks or HTML tags).
 
+## Speech Bubbles
+
+The Neversink theme provides a built-in `<SpeechBubble>` component. Use it to highlight key definitions, callouts, or emphasis on a slide.
+
+### Props
+
+| Prop | Values | Description |
+|---|---|---|
+| `position` | `"l"` or `"r"` | Which side the bubble tail points (left or right) |
+| `color` | Neversink color names e.g. `"sky-light"`, `"purple-light"`, `"green-light"`, `"orange-light"`, `"yellow-light"` | Background/accent color of the bubble |
+| `shape` | `"round"` | Rounded bubble style |
+
+### Example usage
+
+```markdown
+<SpeechBubble position="r" color="sky-light" shape="round">
+
+**Key definition:** A **class** is a blueprint for creating objects.
+
+</SpeechBubble>
+```
+
+- Use `position="r"` for bubbles in the left column (tail points right toward content).
+- Use `position="l"` for bubbles in the right column (tail points left toward content).
+- Wrap content in `<div class="ns-c-tight">` inside the bubble if you need tighter line spacing.
+- You can nest markdown (headings, lists, bold) inside the component.
+
 ## Available Layouts
 
 

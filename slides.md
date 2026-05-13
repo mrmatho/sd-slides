@@ -149,8 +149,14 @@ src: ./pages/22_classes_and_objects.md
 hide: false
 ---
 
+
 ---
 src: ./pages/23_context_dfd_practice.md
+hide: false
+---
+
+---
+src: ./pages/24_oop_principles.md
 hide: false
 ---
 
