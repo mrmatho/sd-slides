@@ -38,7 +38,7 @@ Object-Oriented Programming is built on four key ideas. We'll explore each one u
 layout: top-title-two-cols
 color: purple
 transition: fade
-zoom: 1
+zoom: 0.95
 class: ns-c-tight
 ---
 
@@ -89,7 +89,7 @@ class Animal:
 layout: top-title-two-cols
 color: purple
 transition: fade
-zoom: 1
+zoom: 0.95
 class: ns-c-tight
 ---
 
@@ -139,7 +139,7 @@ my_animal.make_sound()  # Just call it!
 layout: top-title-two-cols
 color: purple
 transition: fade
-zoom: 1
+zoom: 0.9
 class: ns-c-tight
 ---
 
@@ -198,7 +198,7 @@ print(my_animal.get_health())  # 90
 layout: top-title-two-cols
 color: purple
 transition: fade
-zoom: 1
+zoom: 0.95
 class: ns-c-tight
 ---
 
@@ -473,11 +473,15 @@ class: ns-c-tight
 
 <v-click>
 
+<SpeechBubble position="r" color="green-light" shape="round">
+
 **Answers:**
 1. **B. Encapsulation** (`_balance` is protected)
 2. **C. Generalisation** (shared features in one class)
 3. **A. Abstraction** (caller doesn't see the internals)
 4. **D. Inheritance** (`SavingsAccount` extends `BankAccount`)
+
+</SpeechBubble>
 
 </v-click>
 
@@ -485,7 +489,7 @@ class: ns-c-tight
 layout: top-title-two-cols
 color: purple
 transition: fade
-zoom: 1
+zoom: 0.9
 class: ns-c-tight
 ---
 
@@ -501,8 +505,8 @@ You are building software to track scientific weather balloons.
 
 Create a parent class called `Balloon` with shared attributes and methods:
 - `id_code`
-- `altitude`
-- `status`
+- `_altitude`
+- `_status`
 - `launch()`
 - `report_status()`
 
@@ -514,15 +518,16 @@ Then create **two child classes**:
 
 ### Your task
 
-1. Use **inheritance** so both child classes reuse the `Balloon` setup.
+1. Use **encapsulation** to allow _altitude and _status to be read/changed through methods only (e.g. `get_altitude()`, `update_status()`)
+2. Use **inheritance** so both child classes reuse the `Balloon` setup.
 2. Override `report_status()` in each child class with a customised message.
 3. Create at least **one object** of each child class.
 4. Call `launch()` and `report_status()` for each object.
 
-<SpeechBubble position="l" color="green-light" shape="round">
 
-Use the same method name across classes (`report_status`) but show different behaviour in each child class.
 
-</SpeechBubble>
+>Use the same method name across classes (`report_status`) but show different behaviour in each child class.
+
+
 
 **Extension:** Add a third child class of your choice (for example `RelayBalloon`) with one extra attribute.
