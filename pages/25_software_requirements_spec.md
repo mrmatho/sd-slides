@@ -4,6 +4,7 @@ color: yellow
 transition: fade
 zoom: 1
 class: ns-c-tight
+hideInToc: false
 ---
 
 # Software Requirements Specification (SRS)
@@ -109,7 +110,9 @@ class: ns-c-tight
 
 </SpeechBubble>
 
-Functional requirements will be informed heavily by your use case and data flow diagrams. For example, if your use case diagram includes a "User Login" use case, then a functional requirement might be "The system shall allow users to log in using their email and password."
+Functional requirements will be informed heavily by your use case and data flow diagrams. 
+
+For example, if your use case diagram includes a "User Login" use case, then a functional requirement might be "The system shall allow users to log in using their email and password."
 
 ::right::
 
@@ -119,7 +122,9 @@ Functional requirements will be informed heavily by your use case and data flow 
 
 </SpeechBubble>
 
-Non-functional requirements are more likely to come from your data collection and user research. For example, if your user research indicates that users need to access the system on mobile devices, a non-functional requirement might be "The system shall be responsive and accessible on mobile devices."
+Non-functional requirements are more likely to come from your data collection and user research. 
+
+For example, if your user research indicates that users need to access the system on mobile devices, a non-functional requirement might be "The system shall be responsive and accessible on mobile devices."
 
 ---
 layout: top-title
@@ -151,3 +156,157 @@ class: ns-c-tight
 
 </v-click>
 
+---
+layout: top-title
+color: yellow
+class: ns-c-tight
+---
+
+::title::
+
+# Constraints
+
+::content::
+
+<SpeechBubble position="c" color="orange-light" shape="round">
+
+**Constraints** are limitations that impact the development of the software solution. We categorise constraints as: 
+
+- Economic
+- Technical
+- Legal
+- Social
+
+</SpeechBubble>
+
+Whenever you discuss constraints, be sure to clearly identify the type of constraint. 
+
+---
+layout: top-title-two-cols
+color: yellow
+class: ns-c-tight
+---
+
+::title::
+
+# Constraint Types
+
+::left::
+
+<SpeechBubble position="l" color="orange-light" shape="round">
+
+**Economic Constraints** refer to limitations related to budget, funding, or financial resources. **Time** is also an economic constraint. For example, "The project cannot spend any money on external software libraries"
+
+</SpeechBubble>
+
+<SpeechBubble position="l" color="red-light" shape="round">
+
+**Technical Constraints** refer to limitations related to technology, such as hardware, software, or technical expertise. For example, "The system must be developed using Python and Django."
+
+</SpeechBubble>
+
+Constraints need to be described clearly and specifically. They should be directly related to the project and as detailed as possible. For example, instead of saying "The project has a limited budget," you could say "The project has a budget of $10,000 for software development and testing." 
+
+::right::
+
+<SpeechBubble position="r" color="green-light" shape="round">
+
+**Legal Constraints** refer to limitations related to laws, regulations, or industry standards. For example, "The system must comply with The Privacy Act 1988 by ensuring that user data is stored securely and not shared with third parties without consent."
+
+</SpeechBubble>
+
+
+
+<SpeechBubble position="r" color="blue-light" shape="round">
+
+**Social Constraints** refer to limitations related to societal norms, cultural expectations, or user preferences. For example, "The system must be designed to be inclusive and accessible to users with disabilities."
+
+</SpeechBubble>
+
+
+
+---
+layout: top-title
+color: yellow
+class: ns-c-tight
+---
+
+::title::
+
+# Scope
+
+::content::
+
+<SpeechBubble position="c" color="orange-light" shape="round">
+
+**Scope** defines what is included and excluded from the project. It helps to set boundaries and manage expectations for stakeholders and developers. 
+
+</SpeechBubble>
+
+Scope may include a definition of a set of release cycles, where each release cycle includes a set of features or requirements that will be implemented and delivered together.
+
+Scope is generally focused especially on the features not included, to avoid any misconceptions about what the software solution will do. For example, "The system will not include a feature for users to reset their passwords."
+
+---
+layout: top-title
+color: yellow
+class: ns-c-tight
+---
+
+::title::
+
+# Technical Environment
+
+::content::
+
+<SpeechBubble position="c" color="orange-light" shape="round">
+
+**Technical Environment** describes the hardware, software, and network requirements for the software solution. It may include details about the programming languages, frameworks, libraries, databases, and other tools that will be used in the development and deployment of the software solution. 
+
+Technical environment should clearly distinguish between the development environment (tools and technologies used to build the software) and the deployment environment (the hardware and software environment where the software will be deployed and used).
+
+</SpeechBubble>
+
+You won't be held to assumptions made in your discussion of the technical environment, but you do need to be realistic and clear.
+
+---
+layout: top-title
+color: yellow
+class: ns-c-tight
+---
+
+::title::
+
+# User Characteristics
+
+::content::
+
+<SpeechBubble position="c" color="orange-light" shape="round">
+
+**User Characteristics** describe who the users of the software solution are and their needs. This may include demographic information, user personas, user goals, and user preferences.
+
+</SpeechBubble>
+
+- User characteristics are about a "target user", rather than just describing users in general.
+- Some things included in user characteristics might be close to stereotypes, but they need to be based on data collected, rather than just personla feelings. 
+- User characteristics should be directly relevant to the design and development of the software solution. For example, if your software solution is a mobile app for teenagers, your user characteristics might include information about their age range, interests, and technology usage habits.
+
+---
+layout: top-title
+color: yellow
+class: ns-c-tight
+---
+
+::title::
+
+# Summary
+
+::content::
+
+<SpeechBubble position="c" color="orange-light" shape="round">
+
+The SRS is a comprehensive document that describes the software system to be developed, including **functional and non-functional requirements**, **constraints**, **scope**, **user characteristics**, and **technical environment**.
+
+</SpeechBubble>
+
+The SRS is important for problem-solving, clarity, planning, testing, and as a reference point throughout the software development lifecycle.

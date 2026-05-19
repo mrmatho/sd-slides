@@ -67,6 +67,23 @@ if type(my_balloon) is DataBalloon:
 if isinstance(my_balloon, Balloon):
     print("This is a Balloon")
 
+balloon_list = []
+for i in range(4):
+    id = input("Enter balloon ID: ")
+    type = input("Enter balloon type (D)ata or (C)amera: ")
+    if type == "D":
+        sensor = input("Enter sensor type:")
+        balloon = DataBalloon(id, sensor)
+    elif type == "C":
+        res = input("Enter camera resolution:")
+        balloon = CameraBalloon(id, res)
+    balloon_list.append(balloon)
+
+balloon_list[1].launch()
+balloon_list[2].launch()
+balloon_list[2].add_altitude(10)    
+print(balloon_list)
+    
 
 print(f"Status: {my_balloon.report_status()}, Altitude: {my_balloon.get_altitude()}")
 
