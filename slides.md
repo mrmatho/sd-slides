@@ -7,10 +7,7 @@ background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
 title: Software Development
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+  ## Software Development
 # apply UnoCSS classes to the current slide
 defaults:
   hideInToc: true
@@ -177,6 +174,11 @@ hide: false
 
 ---
 src: ./pages/28_finalised_design.md
+hide: false
+---
+
+---
+src: ./pages/29_welcome_to_unit_4.md
 hide: false
 ---
 
