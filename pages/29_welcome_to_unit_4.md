@@ -52,7 +52,6 @@ Submit your program and testing.
 Run your usablity test and change your program and re-submit.
 Complete an evaluation.
 
-
 ---
 layout: top-title
 color: blue-light
