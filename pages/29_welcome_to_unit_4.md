@@ -9,7 +9,7 @@ hideInToc: false
 
 # Welcome to Unit 4
 
-## Development, Evaluation and Cyber Security
+## Development, Evagluation and Cyber Security
 
 ---
 layout: top-title
@@ -67,7 +67,9 @@ zoom: 1
 ## Secure Software Development Practices
 
 
-```mindmap
+```mermaid
+
+mindmap
   root((Secure Software Development Practices))
     Organisations
       Goals and objectives
