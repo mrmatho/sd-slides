@@ -60,12 +60,9 @@ zoom: 1
 
 ::title::
 
-# Unit 4 Outcome 2 - Cyber Security
+# Unit 4 Outcome 2 - Cyber Security: SD Practices
 
 ::content::
-
-## Secure Software Development Practices
-
 
 ```mermaid
 

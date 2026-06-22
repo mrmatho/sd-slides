@@ -36,3 +36,12 @@ This is a [Slidev](https://sli.dev/) presentation for a VCE Software Development
 - `::title::`, `::left::`, `::right::`, `::content::` are slot markers used by Neversink layouts.
 - MDC syntax is enabled (`mdc: true`) — allows inline directives like `==highlighted text==`.
 - To add a new topic, create `pages/NN_topic.md` and add a corresponding `src:` entry in `slides.md`.
+
+## Dependency notes
+
+**`@slidev/cli` is pinned to `52.14.2`** — do not upgrade without testing. Version history:
+- `52.14.2` — current working version. Fixes a bug where the "goto" dialog (press `g`) leaked a list of all slides onto the right side of every slide when the presentation had many pages ([#2520](https://github.com/slidevjs/slidev/pull/2520)).
+- `52.14.1` — had the GotoDialog overflow bug above.
+- `52.15.x` / `52.16.x` — introduced a separate breaking issue (reason unknown; GitHub issues confirmed it). Avoid until re-tested.
+
+**Slidev UI tip:** If a dropdown list of slides appears on the right side of the screen, it is the "goto" dialog leaking through. Press `g` to toggle it, or check the `@slidev/cli` version.
