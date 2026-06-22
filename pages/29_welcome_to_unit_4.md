@@ -51,5 +51,37 @@ Submit your program and testing.
 Run your usablity test and change your program and re-submit.
 Complete an evaluation.
 
+---
+layout: top-title
+color: blue-light
+zoom: 1
+---
+
+::title::
+
+# Unit 4 Outcome 2 - Cyber Security
+
+::content::
+
+## Secure Software Development Practices
 
 
+```mindmap
+  root((Secure Software Development Practices))
+    Organisations
+      Goals and objectives
+      Policies and procedures
+      In-house development vs external
+    Threats and Vulnerabilities
+    Security Controls
+    Threat Modelling
+    Threat Mitigation
+    Evaluating Software Development Practices
+    Legal and Ethical
+      Copyright
+      Essential Eight
+      Information Security Manual
+      Privacy laws
+      Ethical considerations
+
+```
