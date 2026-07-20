@@ -9,7 +9,7 @@ hideInToc: false
 
 # Welcome to Unit 4
 
-## Development, Evaluation and Cyber Security
+## Development, Evagluation and Cyber Security
 
 ---
 layout: top-title
@@ -47,6 +47,7 @@ mindmap
       Evaluating the project plan
 
 ```
+
 Submit your program and testing.
 Run your usablity test and change your program and re-submit.
 Complete an evaluation.
@@ -59,14 +60,13 @@ zoom: 1
 
 ::title::
 
-# Unit 4 Outcome 2 - Cyber Security
+# Unit 4 Outcome 2 - Cyber Security: SD Practices
 
 ::content::
 
-## Secure Software Development Practices
+```mermaid
 
-
-```mindmap
+mindmap
   root((Secure Software Development Practices))
     Organisations
       Goals and objectives
