@@ -1,0 +1,20 @@
+{
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": true,
+    "prettier.proseWrap": "preserve",
+    "prettier.embeddedLanguageFormatting": "off",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": "never"
+    },
+    "markdownlint.config": {
+        "MD024": false,
+        "MD022": false,
+        "MD003": false,
+        "MD013": false,
+        "MD033": false,
+        "MD041": false
+    }
+}
