@@ -9,7 +9,7 @@ li {
 }
 
 /* Enhanced blockquote styling */
-.slidev-layout blockquote  {
+.slidev-layout blockquote {
     border-left: 4px solid #3b82f6;
     background-color: rgba(59, 130, 246, 0.2);
     padding: 0.2rem 1rem 0.5rem 1rem;
@@ -19,3 +19,11 @@ li {
     margin: 10px;
 }
 
+.note {
+    background-color: #fdd409;
+    border: 2px solid #4d6283;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    color: #555;
+    border-radius: 0.5rem;
+}
