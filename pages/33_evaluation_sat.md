@@ -14,8 +14,8 @@ zoom: 0.9
 
 ## For your evaluation you need to
 
-1. Use your Criterion 4 evaluation criteria to evaluate the efficiency and effectiveness of your SAT project. (2-3 sentences for each criterion)
-2. Identify a strategy for how you **would** evaluate your program, after it has been used by your target audience for a sufficiently long period of time. Your strategy needs:
+1. Use your Criterion 4 evaluation criteria to evaluate the efficiency and effectiveness of your SAT project, **quoting evidence from your program**. (2-3 sentences for each criterion)
+2. Describe a strategy for how you **would** evaluate your program, after it has been used by your target audience for a sufficiently long period of time. Your strategy needs:
 
     - To identify how you would collect data (describe how you would use the data collection methods)
     - Which criteria would be used to evaluate the data (these might be adjusted from your Criterion 4 evaluation criteria) and how the data would help you do so
