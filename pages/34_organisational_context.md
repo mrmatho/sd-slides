@@ -19,9 +19,6 @@ zoom: 1.1
 
 ## Advantages and Disadvantages of developing software in-house or externally
 
-- Similarities and differences between in-house and external software development
-- Advantages and disadvantages of in-house and external software development
-
 ---
 layout: top-title
 color: blue-light
@@ -105,10 +102,10 @@ zoom: 1.3
 - In both scenarios, development can occur as a self-contained project, ongoing development, or as part of a larger project.
 
 ---
-layout: top-title
+layout: top-title-two-cols
 color: blue-light
 class: ns-c-tight
-zoom: 1.3
+zoom: 1.1
 ---
 
 ::title::
@@ -125,10 +122,58 @@ zoom: 1.3
 - Knowledge and expertise of the solution is retained for future maintenance and updates.
 - The organisation can respond quickly to changes in requirements or issues that arise during development.
 
+::right::
+
 **Disadvantages:**
 
 - The organisation needs to have the necessary skills and resources to develop the software
 - The development process may take longer and be more expensive than using an external vendor.
-- Internal process may mean the
+- Developing internally may result in less clarity in the requirements stage, as the lack of a contract reduces the need for a clear specification of requirements.
+
+---
+layout: top-title-two-cols
+color: blue-light
+class: ns-c-tight
+zoom: 1.1
+---
+
+::title::
+
+### External development
+
+ Software is developed by an external vendor or contractor.
+
+::left::
+
+**Advantages:**
+
+- The organisation can leverage the expertise and experience of the external vendor, which may result in a higher quality solution.
+- The development process may be faster and more cost-effective than developing in-house.
+- Security may be improved as the external vendor may have more experience in implementing security measures and protocols.
 
 ::right::
+
+**Disadvantages:**
+
+- Less control over the development process.  They may not be able to tailor the solution to any changing needs.
+- Knowledge and expertise of the solution may be lost at the end of the project.
+- The organisation may be dependent on the external vendor for ongoing support and maintenance
+- An external vendor needs to make a profit from the project, which may result in a higher cost for the organisation.
+
+---
+layout: top-title
+color: blue-light
+class: ns-c-tight
+zoom: 1.3
+---
+
+::title::
+
+# Questions
+
+::content::
+
+1. What is the difference between goals and objectives?
+2. "To improve our reputation as a global leader in the entertainment industry" is an example of a goal or an objective? Justify your answer.
+3. "To increase our market share by 10% within the next 12 months" is an example of a goal or an objective? Justify your answer.
+4. Maria is developing a software solution for her organisation. She is considering whether to develop an online purchasing solution in-house or externally. The organisation has talented software developers on staff, but Maria is concerned they have limited experience in web security. Recommend whether Maria should develop the solution in-house or externally, and justify your answer.
