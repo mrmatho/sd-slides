@@ -88,6 +88,7 @@ Malware is a concern for the development process because it can be introduced in
 layout: top-title
 color: blue-light
 class: ns-c-tight
+zoom: 1.3
 ---
 
 ::title::
@@ -111,6 +112,8 @@ class: ns-c-tight
 ::content::
 
 **Identity Management** is the process of maintaining and managing user identities and their access to systems. **Access Management** is the process of controlling who has access to what resources.
+
+Identity and Access management should be based on the **Principle of Least Privilege** to maintain secure access. The Principle of Least Privilege means people are only provided with the minimum level of access required for their role - not more.
 
 Bad identity and access management lets the wrong people in, or keeps the right people out.
 
