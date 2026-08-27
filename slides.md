@@ -227,3 +227,8 @@ hide: false
 ---
 
 ---
+src: ./pages/39_ethics_in_sd.md
+hide: false
+---
+
+---

@@ -26,3 +26,69 @@ There are lots of reasons why ethics is important in Software Development and th
 Although there is clear overlap between these issues and the laws we have studied: we need to consider that many
 
 ---
+layout: top-title
+color: purple-light
+class: ns-c-tight
+zoom: 1.3
+---
+
+::title::
+
+# Ineffective Security Practices
+
+::content::
+
+- Why is this an ethical issue?
+- Who are the stakeholders?
+- What possible effects are there?
+
+---
+layout: top-title
+color: purple-light
+class: ns-c-tight
+zoom: 1.3
+---
+
+::title::
+
+# Use of Artificial Intelligence During Development
+
+::content::
+
+- Why is this an ethical issue?
+- Who are the stakeholders?
+- What possible effects are there?
+
+---
+layout: top-title
+color: purple-light
+class: ns-c-tight
+zoom: 1.3
+---
+
+::title::
+
+# Intellectual Property
+
+::content::
+
+- Why is this an ethical issue?
+- Who are the stakeholders?
+- What possible effects are there?
+
+---
+layout: top-title
+color: purple-light
+class: ns-c-tight
+zoom: 1.3
+---
+
+::title::
+
+# Copyright Issues
+
+::content::
+
+- Why is this an ethical issue?
+- Who are the stakeholders?
+- What possible effects are there?
