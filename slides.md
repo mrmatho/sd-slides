@@ -217,3 +217,13 @@ hide: false
 ---
 
 ---
+src: ./pages/37_legal_copyright_and_privacy.md
+hide: false
+---
+
+---
+src: ./pages/38_legal_essential_eight_ism.md
+hide: false
+---
+
+---
