@@ -24,7 +24,8 @@ layout: top-title
 hideInToc: false
 color: blue-light
 selectable: true
-zoom: 0.85
+zoom: 0.9
+class: ns-c-tight
 # Theme: https://gureckis.github.io/slidev-theme-neversink/getting-started.html
 ---
 ::title::
@@ -33,7 +34,7 @@ zoom: 0.85
 
 ::content::
 
-<Toc depth="2" columns="4"/>
+<Toc depth="2" columns="3"/>
 
 ---
 src: ./pages/01_course_structure.md

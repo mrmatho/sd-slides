@@ -3,7 +3,7 @@ layout: top-title
 color: purple-light
 class: ns-c-tight
 hideInToc: false
-zoom: 1.3
+zoom: 1.1
 ---
 
 ::title::
@@ -29,7 +29,7 @@ Although there is clear overlap between these issues and the laws we have studie
 layout: top-title
 color: purple-light
 class: ns-c-tight
-zoom: 1.3
+zoom: 1.2
 ---
 
 ::title::

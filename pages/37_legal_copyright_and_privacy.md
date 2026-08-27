@@ -230,6 +230,27 @@ zoom: 1.3
 
 ::title::
 
+# Which law and when?
+
+::content::
+
+The **Privacy Act 1988** applies to:
+
+- Private organisations with an annual turnover of more than $3 million
+- Private organisations that handle sensitive information (e.g. health data)
+- Private organisations that provide health services
+- Federal government agencies
+- Organisations that are contracted to provide services to government agencies
+
+---
+layout: top-title
+color: blue-light
+class: ns-c-tight
+zoom: 1.3
+---
+
+::title::
+
 # Privacy and Software Development
 
 ::content::
