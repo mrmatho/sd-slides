@@ -1,10 +1,10 @@
 ---
 layout: cover
-hideInToc: true
+hideInToc: false
 ---
 
-# Secure Software Development
-## Code Review Activity
+# Code Review Activity
+## Secure Software Development
 
 ---
 layout: top-title
@@ -38,6 +38,8 @@ zoom: 1.5
 2. Leave comments on a GitHub Pull Request, like a real code review
 3. (Extension) Fix what you find, submit a second PR
 
+*(More detailed instructions are in the repo's README.)*
+
 ---
 layout: top-title
 color: green
@@ -68,4 +70,8 @@ zoom: 1.6
 
 ::content::
 
-Fork the repo → find the vulnerabilities → open your PR
+```mermaid
+flowchart LR
+ A([Fork the repo]) --> B([Find the vulnerabilities])
+ B --> C([Open the PR])
+```
