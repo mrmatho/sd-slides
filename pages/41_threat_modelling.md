@@ -120,14 +120,23 @@ zoom: 1.5
 
 ::content::
 
-Prepare your findings to share with the class.
+```mermaid
 
-Each pair: **2–3 minutes.**
-
-1. Your focus area's most serious threat + control
-2. Your staging server threat + control
-3. How you'd confirm one of them actually works
-We'll build one shared threat model as we go.
+mindmap
+    root((Threat Modelling))
+        Login
+            Intercepted credentials
+                Mitigation: HTTPS
+                Confirm: Check SSL cert
+            Leaked login info
+                M: 2FA. Using Single Sign-On with Microsoft or Google
+                C: Check 2FA is enforced
+        API
+            Data being sent from the user
+        Third-party service
+        Database
+    
+```
 
 ---
 layout: top-title
