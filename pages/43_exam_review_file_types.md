@@ -9,11 +9,12 @@ hideInToc: false
 ---
 layout: top-title-two-cols
 color: blue-light
+zoom: 1.3
 ---
 
 ::title::
 
-## Text files
+# Text files
 
 ::left::
 
@@ -25,8 +26,6 @@ color: blue-light
 
 ::right::
 
-## Text files
-
 **Disadvantages**
 
 - No built-in structure, so the program needs its own code to read each line
@@ -36,13 +35,15 @@ color: blue-light
 ---
 layout: top-title-two-cols
 color: blue-light
+zoom: 1.3
 ---
 
 ::title::
 
-## CSV files
+# CSV files
 
 ::left::
+
 **Advantages**
 
 - Compact and easy to read and write in code
@@ -60,6 +61,7 @@ color: blue-light
 ---
 layout: top-title-two-cols
 color: blue-light
+zoom: 1.3
 ---
 
 ::title::
